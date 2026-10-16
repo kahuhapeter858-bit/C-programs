@@ -1,0 +1,21 @@
+#include<stdio.h>
+//program that determines eligubility of a student for final exam
+int main(){
+	float attendance;
+	float marks;
+	
+//prompting the user to enter  information	
+printf("enter the percentage number of classes attended:");
+scanf("%f", & attendance);
+printf("enter your marks:");
+scanf("%f", & marks);
+
+//checking his eligibility
+if( attendance >=75 && marks >=40){
+printf("\neligible\n");
+} else{printf("\n not eligible\n");
+}
+
+return 0;
+
+}
