@@ -1,0 +1,13 @@
+#include<stdio.h>)
+
+int main(){
+//c program to show units offered this semester
+printf("units offered this semester:\n");
+printf("1.introduction to programming and algorithms\n");
+printf("2.essentials of accounting\n");
+printf("analogue electronics\n");
+printf("4.communication skills\n");
+printf("5.Fundamentals of digital technology and AI\n");
+
+return 0;
+}
