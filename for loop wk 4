@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main(){
+	int i;
+//declare and initialize
+int marks[6]={100,90,80,70,60,50};
+//for(start;stop;step)
+for (i=0; i<=5;i++){
+printf("% d\n",marks[i]);
+}
+return 0;
+
+}
